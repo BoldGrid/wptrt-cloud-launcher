@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "WP Theme Review Cloud Launcher",
+	"version": "0.1",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions":[
+		"background",
+		"tabs",
+		"storage",
+		"declarativeContent",
+		"activeTab"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://themes.trac.wordpress.org/ticket/*",
+				"http://themes.trac.wordpress.org/ticket/*"
+			],
+			"js": ["content.js"]
+		}
+	],
+	"page_action": {
+		"default_icon": "cloud-off.png"
+	}
+}
