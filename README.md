@@ -1,2 +1,4 @@
 # wptrt-cloud-launcher
-Provides WordPress.org theme review tickets a quick and easy way to launch theme tickets to a fresh WordPress install with recommended plugins.
+Provides WordPress.org theme reviewers a quick and easy way to launch theme review tickets to a fresh WordPress install with Theme Sniffer, Theme Check, and WP Debugging preinstalled and ready to go!
+
+![Extension Screenshot](https://github.com/BoldGrid/wptrt-cloud-launcher/blob/master/screenshot.png)
